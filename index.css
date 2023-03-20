@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .index {
+    width: 100%;
+    height: 100vh;
+    background-image:  url(https://www.mamiezi.com/uploads/images/panoramique-saint-louis-senegal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  nav{
+     width: 100%;
+     height: 18vh;
+      background: rgba(0,0,0,0.2);
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center; 
+     
+  }
+  nav .logo{
+    width: 25%;
+    text-align: center;
+   
+  }
+  nav .menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+  }
+
+ 
+  a{
+    margin: 5px;
+    border: solid 1px;
+    transition: 0.6 ease;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    
+  }
+  a:hover{
+    background-color: white;
+    color: rgb(124, 71, 71);
+    box-shadow: 10px -10px 25px 0 rgb(124, 71, 71), -10px 10px 25px 0 rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.3);
+  }
+  main{
+    width: 100%;
+    height: 90vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  section  h3{
+    font-size: 35px;
+      font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px;
+  }
+  section{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+  section p{
+    font-size: 25px;
+    color: #eee;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration:none ;
+    letter-spacing: 1px;
+  }
+  footer{
+    display: flex;
+    background: goldenrod;
+  }
+  .goree{
+    background-color: antiquewhite;
+  }
+  .gore{
+    width: 25%;
+    float: left;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    height: 20vh;
+  }
+  .gore2{
+    float: left;
+    width: auto;
+  }
+
+  .ile2{
+    margin-top: 50px;
+    margin-right: 200px;
+    font-weight: bold;
+  }
+  .ile{
+    margin-left: 700px;
+    margin-top: 10px;
+  }
+  h2{
+    text-align: center;
+    margin-top: 100px;
+  }
+  .img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .madeleine{
+    background-color: antiquewhite ;
+  }
+  .ilemad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 500px;
+    
+  }
+  .mad{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
